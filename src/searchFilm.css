@@ -1,0 +1,61 @@
+/* Ajoutez ces styles à votre fichier CSS (SearchFilms.css) ou SCSS */
+
+/* Style pour le conteneur principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Ajoutez ces styles à votre fichier CSS (SearchFilms.css) ou SCSS */
+
+/* Style pour le conteneur principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style pour les boutons de pagination */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%; /* Rend les boutons carrés */
+  width: 40px; /* Largeur souhaitée pour les boutons carrés */
+  height: 40px; /* Hauteur souhaitée pour les boutons carrés */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Style pour le bouton "Previous" */
+.pagination button:first-child {
+  margin-left: 0;
+}
+
+/* Style pour le bouton "Next" */
+.pagination button:last-child {
+  margin-right: 0;
+}

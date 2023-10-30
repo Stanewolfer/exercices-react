@@ -1,0 +1,32 @@
+/* Style pour le conteneur principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style pour le titre du film */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style pour la description du film */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Style pour l'élément de chargement */
+.loading {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style pour les erreurs */
+.error {
+  font-size: 18px;
+  text-align: center;
+  color: red;
+}

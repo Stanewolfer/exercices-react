@@ -1,0 +1,39 @@
+/* user-profile.css */
+
+/* Style pour le conteneur principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style pour le titre */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style pour les informations utilisateur */
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour le chargement */
+  .loading {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Style pour les erreurs */
+  .error {
+    font-size: 18px;
+    text-align: center;
+    color: red;
+  }
+  
